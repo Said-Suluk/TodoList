@@ -1,0 +1,74 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e4fdb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  width: 500px;
+  height: auto;
+  background: #b0abf7;  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+input{
+  height: 20px;
+  padding: 5px 20px;
+}
+button{
+  margin: 10px 0;
+  border-radius: 5px;
+}
+ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+li{
+  padding: 5px 20px;
+  width: 350px;
+  background-color: #8758ff;
+  list-style-type: none;
+  text-align: start;
+  border-bottom: 2px solid #b0abf7;
+  margin-top: 10px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: .7px;
+  border-radius: 5px;
+}
+button{
+  border: none;
+  letter-spacing: 2px;
+  padding: 3px 18px;
+  color: #333;
+  font-size: 16px;
+  background-color: #8758ff;
+  transition: .3s;
+}
+button:hover{
+  color: #f7cabc;
+  background-color: #333;
+}
